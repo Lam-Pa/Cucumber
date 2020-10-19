@@ -7,9 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/main/resources/features",
-        monochrome = true,
-        tags = "@Test",
-        glue={"steps"}
+        glue={"online.steps"}
 )
 
 public class RunCucumberTest{
